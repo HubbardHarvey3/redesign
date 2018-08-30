@@ -111,7 +111,7 @@ header div {
 .p-text {
     padding: 10px;
     font-size: 2.3em;
-    color:black;
+    color:#555b6e;
     padding:auto;
     background-color: rgba( 190, 227, 219, .8);
     font-family: 'Source Sans Pro', sans-serif;
@@ -119,7 +119,7 @@ header div {
 
 @media screen and (max-width: 800px) {
     .p-text {
-        font-size: 1.5em
+        font-size: 1.2em
     }
 }
 
@@ -210,7 +210,7 @@ i, a {
     margin:20px;
 }
 
-.pictureCBC, .pictureCMS, .pictureDR {
+.pictureMI222, .pictureCMS, .pictureDR {
     background-image: url(../img/kid.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -226,8 +226,8 @@ i, a {
     transition: all 1s ease;
 }
 
-.pictureCBC {
-    background-image: url("../img/CBCTest.png")
+.pictureMI222 {
+    background-image: url("../img/MI222Sample.jpg")
 }
 
 .pictureCMS {
@@ -243,12 +243,13 @@ i, a {
     height:100%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
     .childProject {
         display:flex;
         flex-direction:column;
         justify-content:center;
         width:100%;
+        text-align: center
     }
    .childProject a {
        align-self:center;
