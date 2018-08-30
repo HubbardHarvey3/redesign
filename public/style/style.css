@@ -31,7 +31,7 @@ section{
 
 .logo {
     font-family: 'Raleway', cursive;
-    font-size: 3.5em;
+    font-size: 2.5em;
     text-align: center;
 }
 
@@ -39,13 +39,17 @@ section{
     display:none;
 }
 
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 768px) {
     #sketch-parent {
         display:none;
     }
     
     #logoHide {
         display: inherit;
+        font-size: 2em;
+    }
+    .graphic {
+        margin-top: 20px
     }
 }
 
@@ -78,6 +82,15 @@ a:visited, a:link {
     text-decoration: inherit;
     color:inherit;
 }
+/*------------------Graphic---------------------*/
+
+.graphic {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+
 
 /*------------------Header----------------------*/
 

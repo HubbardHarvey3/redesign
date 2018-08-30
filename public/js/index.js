@@ -1,3 +1,7 @@
+// Resize reload function
+
+// window.addEventListener('resize', () => window.location.reload())
+
 // Daniel Shiffman
 // http://codingtra.in
 // Steering Text Paths
@@ -12,17 +16,18 @@ function preload() {
 }
 
 function setup() {
-  let canvas = createCanvas(windowWidth, 300);
+  let canvas = createCanvas(300, 304);
   background('#ffd6ba');
   canvas.parent('sketch-parent')
   canvas.style('z-index', '-1')
+  textAlign(CENTER)
   // textFont(font);
   // textSize(192);
   // fill(255);
   // noStroke();
   // text('train', 100, 200);
     
-  var points = font.textToPoints('H3 Web Development', width * .095, 200, 120, {
+  var points = font.textToPoints('H3', 12 , 200, 220, {
     sampleFactor: 0.25
   });
 
