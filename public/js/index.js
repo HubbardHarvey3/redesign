@@ -17,7 +17,7 @@ function preload() {
 
 function setup() {
   let canvas = createCanvas(300, 304);
-  background('#ffd6ba');
+  background('#faf9f9');
   canvas.parent('sketch-parent')
   canvas.style('z-index', '-1')
   textAlign(CENTER)

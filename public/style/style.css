@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #faf9f9
+    background-color: #faf9f9;
 }
 
 h1 {
@@ -60,6 +60,7 @@ section{
     li {
         font-size: .8em;
     }
+   
 }
 
 /*------------------NAV BAR----------------------*/
@@ -72,10 +73,17 @@ nav {
     letter-spacing: 1px;
     text-decoration: none;
     padding:10px 0;
-    border-bottom: solid 5px #40200A;
+    border-bottom: solid 5px #555b6e;
     background-color: #bee3db;
 }
 
+nav h1, nav sup {
+    color:#555b6e;
+}
+
+nav .navH1 {
+    font-size:1.7em;
+}
 
 
 a:visited, a:link {
@@ -103,8 +111,14 @@ header{
 }
 
 header div {
-    padding:20px;
+    padding-left: 50px;
+    padding-right: 50px;
     font-size: 1.5em;
+}
+
+.verse {
+     padding-left: 20px;
+    padding-right: 20px;
 }
 
 /*------------------Parallax----------------------*/
@@ -122,11 +136,11 @@ header div {
 }
 
 .p-text {
-    padding: 10px;
+    padding: 30px;
     font-size: 2.3em;
-    color:#555b6e;
+    color: #FBFFFE;
     padding:auto;
-    background-color: rgba( 190, 227, 219, .8);
+    background-color: rgba( 0, 21, 20, .8);
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -150,7 +164,7 @@ header div {
 }
 
 .services div {
-    padding:20px 0 20px 0;
+    padding:50px 0 50px 0;
 }
 
 .servicesOne, .servicesOne div, .servicesTwo, .servicesTwo div, .servicesThree, .servicesThree div, .servicesFour, .servicesFour div {
@@ -161,7 +175,8 @@ header div {
 }
 
 .centered {
-    text-align: center
+    text-align: center;
+    padding-top:30px;
 }
 
 i, a {
@@ -169,7 +184,7 @@ i, a {
 }
 
 .fa-4x {
-    color:#89b0ae;
+    color:#0D1B1E;
 }
 
 @media screen and (max-width: 800px) {
@@ -231,7 +246,7 @@ i, a {
     width:200px;
     margin:3px;
     align-self:center;
-    border:#555b6e solid 5px;
+    border:#0D1B1E solid 5px;
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -ms-transition: all 1s ease;
@@ -274,9 +289,13 @@ i, a {
 /*------------------Footer----------------------*/
 
 footer {
-    border-top: black solid 3px;
+    border-top: solid 5px #555b6e;
     padding:20px;
     text-align: center;
     font-size: 1.5em;
-    background-color: #bee3db
+    background-color: #bee3db;
+}
+
+footer h6 {
+    color:#555b6e;
 }
