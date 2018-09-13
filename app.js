@@ -10,10 +10,10 @@ app.get("/", function(req, res){
 });
 
 // When I go live, this code needs to be used!!!!------------------------
-// app.listen(app.get('port'), function() {
-//   console.log("Node app is running at localhost:" + app.get('port'))
-// })
+ app.listen(app.get('port'), function() {
+   console.log("Node app is running at localhost:" + app.get('port'))
+ })
 
-app.listen(process.env.PORT, process.env.IP, function(){
-   console.log("Blog server is spinning up");
-});
+//app.listen(process.env.PORT, process.env.IP, function(){
+//   console.log("Blog server is spinning up");
+//});
