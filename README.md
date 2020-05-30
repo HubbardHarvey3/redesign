@@ -1,4 +1,4 @@
-# redesign
+# Hcubedcoder.com Redesign
 My redesigned website hcubedcoder.com
 
 The site is built using HTML, CSS, and some vanilla javascript
