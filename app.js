@@ -58,11 +58,6 @@ app.get('/file', function (req, res) {
 })
 
 
-
-
-
-
-
 // When I go live, this code needs to be used!!!!------------------------
 app.listen(app.get('port'), function () {
     console.log("Node app is running at localhost:" + app.get('port'))
