@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Sermon List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="public/style/styleA.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.413.0.min.js"></script>
+    
+    
+</head>
+<body>
+    <div class="container">
+        <h1><%= params.Key %></h1>
+
+        <ul>
+            <li style="list-style:none"><a href="<%= url %>">Click Here to Download the Sermon</a></li>
+        </ul>
+        
+        <a href="/aws">Click here to go back</a>
+    </div>
+</body>
+</html>
